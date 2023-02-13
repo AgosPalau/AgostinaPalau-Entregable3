@@ -1,0 +1,86 @@
+// IMPORTS 
+@import "vars";
+@import "mixin";
+@import "pages";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+
+#botonera{
+    background-color: $colorPrimario;
+img{
+    width: 150px;
+}
+a{
+    color: $colorSecundario;
+    font-size: $textS;
+    font-family: 'Roboto', sans-serif;
+    &:hover{
+    color: orange;
+    }
+}
+}
+.navbar-toggler{
+    background-color: $colorSecundario;
+}
+.bg-azul{
+    background-color: $colorPrimario;
+}
+
+.bg-deep{
+    background-color: $colorSecundario;
+}
+#carrousel{
+    height: 50%
+}
+h2{
+    color: $colorPrimario;
+    font-family: 'Roboto', sans-serif;
+    font-size: $textM;
+    font-weight: 600;
+    text-align: center;
+}
+h1{
+    font-size: $textXL;
+    align-items: center;
+    color: $colorTerciario;
+    text-align: center
+}
+p{
+    @include textos(black, $textS);
+    margin: 20px;
+}
+h3{
+    color: $colorSecundario;
+    align-items: center;
+}
+h4{
+    font-size: $textL;
+}
+#contact{
+    width: 70%;
+    align-items: center;
+    margin-left: 15%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: $colorSecundario;
+    p{
+    font-size: $textL;
+}
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $colorPrimario;
+    color: $colorSecundario;
+img{
+    width: 30px;
+    height: 30px;
+    justify-content: flex-start;
+    cursor: pointer;
+        &:hover{
+    opacity: 50%;
+    }
+}
+}

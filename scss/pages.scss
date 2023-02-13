@@ -1,0 +1,44 @@
+figure{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+figcaption{
+    color: $colorTerciario;
+    font-family:'Playfair Display SC', sans-serif;
+    font-weight:bold;
+    font-size: $textXL;
+    margin-left: 100px;
+    margin: 8px, 8px;
+}
+.img-pag{
+    width: 55%;
+    height: 550px;
+}
+.listPag{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-weight: 700;
+}
+.listPag li{
+    margin: 10px;
+}
+@media ( max-width:574px){
+    .text.p{
+        font-size: 10px;
+    }
+    figure{
+        display: flex;
+        flex-direction: column;
+    }
+    figure img{
+        width: 100%;
+    }
+    figcaption{
+        font-size: 45px;
+        padding-right: 20%;
+    }
+    
+    }

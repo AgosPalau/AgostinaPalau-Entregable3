@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+figure {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+
+figcaption {
+  color: #235069;
+  font-family: "Playfair Display SC", sans-serif;
+  font-weight: bold;
+  font-size: 4em;
+  margin-left: 100px;
+  margin: 8px, 8px;
+}
+
+.img-pag {
+  width: 55%;
+  height: 550px;
+}
+
+.listPag {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  font-weight: 700;
+}
+
+.listPag li {
+  margin: 10px;
+}
+
+@media (max-width: 574px) {
+  .text.p {
+    font-size: 10px;
+  }
+  figure {
+    display: flex;
+    flex-direction: column;
+  }
+  figure img {
+    width: 100%;
+  }
+  figcaption {
+    font-size: 45px;
+    padding-right: 20%;
+  }
+}
+#botonera {
+  background-color: #1E1E26;
+}
+#botonera img {
+  width: 150px;
+}
+#botonera a {
+  color: aliceblue;
+  font-size: 1.2em;
+  font-family: "Roboto", sans-serif;
+}
+#botonera a:hover {
+  color: orange;
+}
+
+.navbar-toggler {
+  background-color: aliceblue;
+}
+
+.bg-azul {
+  background-color: #1E1E26;
+}
+
+.bg-deep {
+  background-color: aliceblue;
+}
+
+#carrousel {
+  height: 50%;
+}
+
+h2 {
+  color: #1E1E26;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.4em;
+  font-weight: 600;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4em;
+  align-items: center;
+  color: #235069;
+  text-align: center;
+}
+
+p {
+  color: black;
+  font-size: 1.2em;
+  margin: 20px;
+}
+
+h3 {
+  color: aliceblue;
+  align-items: center;
+}
+
+h4 {
+  font-size: 3em;
+}
+
+#contact {
+  width: 70%;
+  align-items: center;
+  margin-left: 15%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  color: aliceblue;
+}
+#contact p {
+  font-size: 3em;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1E1E26;
+  color: aliceblue;
+}
+footer img {
+  width: 30px;
+  height: 30px;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+footer img:hover {
+  opacity: 50%;
+}/*# sourceMappingURL=main.css.map */
